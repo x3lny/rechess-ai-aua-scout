@@ -1,0 +1,20 @@
+# Исключаем тяжелые веса моделей PyTorch
+*.pth
+rechess_resnet_model.pth
+rechess_lstm_model.pth
+rechess_tactics_model.pth
+
+# Исключаем огромные шахматные датасеты CSV
+*.csv
+lichess_db_puzzle.csv
+chess_puzzles_aua_28.csv
+chess_puzzles_mvp.csv
+
+# Исключаем лог-файлы истории скаутинга
+scouting_history.txt
+
+# Исключаем системные папки виртуального окружения PyCharm
+.venv/
+venv/
+.idea/
+__pycache__/
